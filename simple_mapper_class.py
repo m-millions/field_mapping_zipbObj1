@@ -9,15 +9,7 @@ def __init__():
 pass
 
 def get_config_objects(self):
-# fist pass at dict object - first iteration only handles field for which we know a
-# direct mappint for, any field still in question ( e.g."?? -> suffix" ) is not included,
-# yet, in the mapping sequence.  Full exclusion list is as follows:
-# useSuffix, gender, winner, runoff, cvotes
-
-# CAVEAT: mapping_values, transform_list, and mapped_keys all need to be created with THE SAME ORDINANCE
-# or the mapping will fail - yes, this is lame
-
-# TO DO: individual for updating to reading all files into a list object...
+# fist pass at dict object 
 
 #__location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
 #f = open(os.path.join(__location__, 'individual_new.json'))
